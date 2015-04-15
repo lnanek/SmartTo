@@ -1,0 +1,13 @@
+--- AppDelegate.m	2015-01-29 11:20:41.000000000 -0500
++++ AppDelegate.m	2015-01-29 11:21:28.000000000 -0500
+@@ -148,3 +148,10 @@
+ }
+ 
+ @end
++
++@implementation NSURLRequest(DataController)
+++ (BOOL)allowsAnyHTTPSCertificateForHost:(NSString *)host
++{
++    return YES;
++}
++@end

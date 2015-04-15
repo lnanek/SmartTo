@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    id="svg2"
+    sodipodi:docname="_svgclean2.svg"
+    viewBox="0 0 2048 1556"
+    version="1.1"
+    inkscape:version="0.48.3.1 r9886"
+  >
+  <sodipodi:namedview
+      id="namedview10"
+      bordercolor="#666666"
+      inkscape:pageshadow="2"
+      guidetolerance="10"
+      pagecolor="#ffffff"
+      gridtolerance="10"
+      inkscape:window-maximized="0"
+      inkscape:zoom="0.22425739"
+      objecttolerance="10"
+      borderopacity="1"
+      inkscape:current-layer="svg2"
+      inkscape:cx="372.04724"
+      inkscape:cy="1029.8189"
+      inkscape:window-y="0"
+      inkscape:window-x="0"
+      inkscape:window-width="640"
+      showgrid="false"
+      inkscape:pageopacity="0"
+      inkscape:window-height="480"
+  />
+  <path
+      id="path4"
+      style="fill:#ffffff"
+      inkscape:connector-curvature="0"
+      d="m0 0v1556h2048v-1556h-2048z"
+  />
+  <path
+      id="path6"
+      style="fill:#1f7dbd"
+      inkscape:connector-curvature="0"
+      d="m697 208c14.727 35.186 38.662 69.093 57.989 102 31.714 53.998 62.001 108.84 93.435 163 15.435 26.594 34.711 53.651 46.576 82 17.97-4.915 34.578-13.583 53-17.196 40.004-7.846 82.54-7.792 122 3.351 14.92 4.213 28.74 11.135 43 16.845 0.55-9.835 9.92-20.577 14.72-29 12.97-22.766 26.44-45.244 39.43-68 30.76-53.883 62.28-107.34 93.43-161 16.92-29.154 32.25-60.271 51.42-88-39.36-18.376-77.31-37.019-119-49.974-110.1-34.22-230.92-37.71-343-11.15-54.24 12.86-102 35.89-153 57.12m-346 554h295 76c6.223 0 22.429 2.906 27.397-1.028 3.898-3.087 3.445-18.959 4.406-23.972 3.34-17.422 8.011-45.506 20.197-59 1.607-10.399 10.558-21.243 16.05-30 17.405-27.751 42.996-56.854 71.95-73l-57.42-99-142.58-247c-16.247 6.149-32.163 19.766-46 30.127-31.11 23.29-60.6 48.43-87.09 76.87-105.82 113.6-177.91 268.68-177.91 426m879-84c12.19 13.495 16.86 41.577 20.2 59 1.01 5.283 0.46 21.671 4.54 24.972 4.86 3.929 21.13 1.028 27.26 1.028h75 294c0-160.05-73.3-311.37-178.83-428-26.47-29.259-57.44-54.732-89.17-78.116-8.95-6.599-24.81-22.06-35.96-23.572-5.81-0.788-11.06 13.553-13.46 17.688-11.42 19.671-23.04 39.239-34.3 59-36.21 63.559-72.65 127.15-110.08 190-10.64 17.875-20.99 35.957-31.35 54-3.08 5.361-11.13 14.705-11.11 20.961 0 3.798 4.67 6.564 7.35 8.547 7.32 5.412 14.32 11.234 20.91 17.531 16.37 15.65 29.96 32.897 42.05 51.961 4.64 7.303 11.52 16.336 12.95 25m-879 127c0 160.05 73.304 311.37 178.83 428 25.951 28.68 56.224 53.52 87.17 76.63 12.912 9.64 28.524 23.47 44 28.37 48.24-81.8 93.918-165.11 142.01-247 13.247-22.56 25.805-45.53 39.19-68 4.092-6.87 15.081-19.88 15.064-27.961-0.009-3.799-4.671-6.563-7.354-8.547-7.32-5.41-14.32-11.23-20.91-17.53-16.37-15.65-29.96-32.9-42.05-51.96-4.63-7.3-11.52-16.34-12.95-25-5.92-6.56-7.85-16.8-10.67-25-7.07-20.56-10.61-40.44-13.33-62h-399m903 1-13.67 62-10.33 24c-1.5 9.741-9.71 19.771-14.81 28-17.83 28.76-41.56 51.454-68.19 72l54.58 95 96.84 168 46.58 81c16.06-6.93 31.07-19.68 45-30.13 29.72-22.29 57.77-46.69 83.09-73.87 105.8-113.6 177.9-268.67 177.9-426h-397m-360 207-44.011 75-88.41 152-44.182 76-23.397 42c42.097 24.57 90.122 41.46 137 54.15 160.42 43.45 332.34 22.02 479-55.15-3.28-11.15-11.48-22.02-17.4-32-9.79-16.53-19.23-33.31-28.75-50-34.11-59.76-68.56-119.34-102.85-179l-35-61c-2.92-5.08-8.19-19.49-14.1-21.26-3.73-1.13-12.21 4.58-15.9 5.94-13.72 5.08-27.55 10.29-42 12.9-43.09 7.78-88.417 7.34-130-7.49-10.118-3.61-21.027-5.92-30-12.09z"
+  />
+  <metadata
+      id="metadata8"
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg
+>

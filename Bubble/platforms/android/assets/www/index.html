@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="format-detection" content="telephone=no" />
+		<!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<title>Shell</title>
+		<link rel="stylesheet" type="text/css" href="css/smart_to.css" />
+
+		<script type="text/javascript" src="jquery.mobile-1.4.5/demos/js/jquery.js"></script>
+		<script type="text/javascript" src="js/smart_to.js"></script>
+	</head>
+	<body>
+
+		<audio id="stRevSound" src="file:///android_asset/www/sound/rev.mp3" type="audio/mpeg" ></audio>
+
+		<h1 class="stTitle" >
+			<span>Smart T</span><img align="bottom" width="58" height="58" src="img/icon_144.png" />
+		</h1>
+		<h2 class="stTagline">
+			<!-- Commute to and from smarter, not harder! -->
+			Your commute made easier, greener, safer!
+		</h2>
+		<div class="stTabBar"
+			><img id="stKeyTab" class="selected" width="48" height="48" src="img/icon_key.png" onclick="onKeyTabClick()"
+			/><img id="stCoatTab" width="48" height="48" src="img/icon_coat.png"  onclick="onCoatTabClick()"
+			/><img id="stShoeTab" width="48" height="48" src="img/icon_shoe.png"  onclick="onShoeTabClick()"
+		/></div
+		><div id="sTTabContainer" class="stTabContent sTUnknown"><div id="stKeyTabContent"
+			>
+				<h3>On Keys Motion:</h3>
+
+				<input type="checkbox" checked="checked" />
+				Turn on and Warm Up Car<br /><br />
+
+				<input type="checkbox" checked="checked" />
+				Turn on Porch Light<br />
+				<input type="checkbox" style="visibility: hidden;" />
+				(e.g. Lowe's Iris Smart Plug)
+			</div>
+			<div id="stCoatTabContent" style="display:none">
+				<h3>On Coat Motion:</h3>
+
+				<input type="checkbox" checked="checked" />
+				Text Walking Partner<br />
+				(<input id="stTextOnLeaveNumber" type="text" value="518-229-2224" />)<br /><br />
+
+				<input type="checkbox" checked="checked" />
+				Text SO after
+				<select id="sTDelayMinutes">
+				  <option value="0.25">0.25</option>
+				  <option value="15" selected="selected">15</option>
+				  <option value="30">30</option>
+				  <option value="45">45</option>
+				  <option value="60">60</option>
+				</select>
+				minutes
+				<br />
+				(<input id="stTextOnMissingNumber" type="text" value="201-286-3811" />)<br /><br />
+
+				Remaining:<br />
+				<input id="sTMinutes" type="text" value="--" size="2" />:
+				<input id="sTSeconds" type="text" value="--" size="2" />
+				<input type="button" value="I made it!" onclick="onStopPressed()" />
+			</div>
+			<div id="stShoeTabContent" style="display:none">
+				<h3>On Shoe Motion:</h3>
+
+				<input type="checkbox" checked="checked" />
+				Request Uber Ride To:<br />
+				<input id="sTDestination" type="text" value="1 Telegraph Hill Blvd, San Francisco, CA 94133" /><br /><br />
+
+				<input type="checkbox" checked="checked" />
+				Turn on Porch Light<br />
+				<input type="checkbox" style="visibility: hidden;" />
+				(e.g. Lowe's Iris Smart Plug)
+			</div>
+
+			<h3 id="stStatusLine">
+				Status: <span id="currentResult">Measuring...</span>
+			</h3>
+		</div>
+
+			<div class="stDebugContent">
+				<br />
+				Debug:<input id="currentValue" type="text" size="40" /><br />
+
+				<input type="button" value="Test 1" onclick="onMock1Pressed()" />
+				<input type="button" value="Test 2" onclick="onMock2Pressed()" />
+				<input type="button" value="Test 3" onclick="onMock3Pressed()" /><br />
+				Triggered action:<input id="stTriggeredDisplay" type="text" value="false" /><br />
+
+			</div>
+
+		<canvas id="main"></canvas>
+
+		<script type="text/javascript" src="cordova.js"></script>
+		<script type="text/javascript" src="js/zebra.js"></script>
+		<script type="text/javascript" src="js/current_app.js"></script>
+		<script type="text/javascript" src="js/current_index.js"></script>
+		<script type="text/javascript">
+			baseApp.initialize();
+		</script>
+	</body>
+</html>
