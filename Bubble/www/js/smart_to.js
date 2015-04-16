@@ -16,9 +16,9 @@ var mockValue3 = {
 
 var recCount = 0;
 
-var uberUrl = 'https://m.uber.com/sign-up?client_id=PUT_YOUR_CLIENT_ID_HERE&first_name=Lance&last_name=Nanek&email=lnanek@gmail.com&country_code=us&mobile_country_code=%2B1&mobile_phone=123-456-7890&zipcode=94111&product_id=a1111c8c-c720-46c3-8534-2fcdd730040d&pickup_latitude=37.775818&pickup_longitude=-122.418028&pickup_nickname=Uber%20HQ&pickup_address=1455%20Market%20St%2C%20San%20Francisco%2C%20CA%2094103&dropoff_address=';
+var uberUrl = 'https://m.uber.com/sign-up?client_id=INSERT_YOUR_CLIENT_KEY_HERE&first_name=Lance&last_name=Nanek&email=lnanek@gmail.com&country_code=us&mobile_country_code=%2B1&mobile_phone=123-456-7890&zipcode=94111&product_id=a1111c8c-c720-46c3-8534-2fcdd730040d&pickup_latitude=37.775818&pickup_longitude=-122.418028&pickup_nickname=Uber%20HQ&pickup_address=1455%20Market%20St%2C%20San%20Francisco%2C%20CA%2094103&dropoff_address=';
 
-var uberUrlMobile = 'uber://?action=setPickup&pickup=my_location&client_id=PUT_YOUR_CLIENT_ID_HERE&dropoff_address=';
+var uberUrlMobile = 'uber://?action=setPickup&pickup=my_location&client_id=INSERT_YOUR_CLIENT_KEY_HERE&dropoff_address=';
 
 var previousX, previousY, previousZ;
 var hasPrevious = false;
